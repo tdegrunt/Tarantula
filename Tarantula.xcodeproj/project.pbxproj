@@ -15,9 +15,6 @@
 		8256307E1246A88300215F09 /* TTJavaScriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 8256307D1246A88300215F09 /* TTJavaScriptBridge.m */; };
 		825630811246A89800215F09 /* WebScriptObject+TTAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 825630801246A89800215F09 /* WebScriptObject+TTAdditions.m */; };
 		82B0DB31124D335F00A00521 /* TTJSMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B0DB30124D335F00A00521 /* TTJSMenuItem.m */; };
-		82B0DE04124D46DF00A00521 /* BespinEmbedded.js in Sources */ = {isa = PBXBuildFile; fileRef = 82B0DC70124D429400A00521 /* BespinEmbedded.js */; };
-		82B0DE05124D46DF00A00521 /* BespinMain.js in Sources */ = {isa = PBXBuildFile; fileRef = 82B0DC71124D429400A00521 /* BespinMain.js */; };
-		82B0DE06124D46DF00A00521 /* BespinWorker.js in Sources */ = {isa = PBXBuildFile; fileRef = 82B0DC72124D429400A00521 /* BespinWorker.js */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
@@ -449,9 +446,6 @@
 				8256307E1246A88300215F09 /* TTJavaScriptBridge.m in Sources */,
 				825630811246A89800215F09 /* WebScriptObject+TTAdditions.m in Sources */,
 				82B0DB31124D335F00A00521 /* TTJSMenuItem.m in Sources */,
-				82B0DE04124D46DF00A00521 /* BespinEmbedded.js in Sources */,
-				82B0DE05124D46DF00A00521 /* BespinMain.js in Sources */,
-				82B0DE06124D46DF00A00521 /* BespinWorker.js in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

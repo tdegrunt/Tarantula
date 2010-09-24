@@ -270,12 +270,13 @@
 								<string>29B97317FDCFA39411CA2CEA</string>
 								<string>1C37FBAC04509CD000000102</string>
 								<string>82B0DC6A124D428400A00521</string>
+								<string>82B0DEA8124D4AA600A00521</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>26</integer>
+									<integer>24</integer>
 									<integer>22</integer>
 									<integer>21</integer>
 								</array>
@@ -316,7 +317,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>BespinEmbedded.css</string>
+								<string>BespinEmbedded.js</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -324,11 +325,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>BespinEmbedded.css</string>
+										<string>BespinEmbedded.js</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>82B0DE77124D490C00A00521</string>
+										<string>82B0DEAF124D4ADC00A00521</string>
 										<key>history</key>
 										<array>
 											<string>823A01F01246A94600489768</string>
@@ -347,7 +348,8 @@
 											<string>82B0DE36124D476200A00521</string>
 											<string>82B0DE37124D476200A00521</string>
 											<string>82B0DE38124D476200A00521</string>
-											<string>82B0DE39124D476200A00521</string>
+											<string>82B0DEA9124D4AA600A00521</string>
+											<string>82B0DEAA124D4AA600A00521</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>

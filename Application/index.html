@@ -23,10 +23,13 @@
 		        editor = document.getElementById("editor").bespin.editor;
 
 				//tarantula.beep();
-				//var result = tarantula.openPanel();
-				//console.log(JSON.stringify(result));
 				noActionBeep = function() {
 					tarantula.beep();
+				};
+				
+				openFile = function() {
+					var result = tarantula.openPanel();
+					console.log(JSON.stringify(result));
 				};
 				
 				var menu = [
@@ -41,7 +44,7 @@
 						"title": "File",
 						"items": [
 							{ "title": "New", "keyEquivalent": "n", "action": noActionBeep },
-							{ "title": "Open", "keyEquivalent": "o", "action": noActionBeep },
+							{ "title": "Open", "keyEquivalent": "o", "action": openFile },
 							{ "title": "Close", "keyEquivalent": "w", "action": noActionBeep }
 						] 
 					},
