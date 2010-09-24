@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<link id="bespin_base" href=".">
+		<link href="./BespinEmbedded.css" type="text/css" rel="stylesheet">
+		<style>
+		  body { font-family: Calibri, Helvetica, Arial; margin: 0;}
+		  .bespin { margin: 0; padding: 0; border: 0; height: 600px; }
+		</style>
+		<script type="text/javascript" src="./BespinEmbedded.js"></script>
+		<script>
+		    // The editor is set within the window.onBespinLoad function.
+		    var editor;
+
+		    window.onBespinLoad = function() {
+		        var console = bespin.tiki.require('bespin:console').console;
+		        var Range = bespin.tiki.require('rangeutils:utils/range');
+
+		        console.log("this is called when Bespin is loaded");
+
+		        // Get the Bespin editor.
+		        editor = document.getElementById("editor").bespin.editor;
+
+				//tarantula.beep();
+				//var result = tarantula.openPanel();
+				//console.log(JSON.stringify(result));
+				var menu = [
+				  {
+				  	"title": "Tarantula",
+				  	"items": [
+				  		{ "title": "About Tarantula", "keyEquivalent": "", "action": function() {} },
+				  		{ "title": "Quit Tarantula", "keyEquivalent": "q", "action": function() {} }
+				  	] 
+				  },
+					{
+						"title": "File",
+						"items": [
+							{ "title": "New", "keyEquivalent": "n", "action": function() {} },
+							{ "title": "Open", "keyEquivalent": "o", "action": function() {} },
+							{ "title": "Close", "keyEquivalent": "w", "action": function() {} }
+						] 
+					},
+					{
+						"title": "Help",
+						"items": [
+							{ "title": "Tarantula Help", "keyEquivalent": "?", "action": function() {} },
+						] 
+					}
+				];
+				tarantula.setApplicationMenu(menu);
+		    };
+		</script>		
+	</head>
+	<body>
+		<div id="editor" class="bespin" data-bespinoptions='{ "search_path": "../plugins", "settings": { "tabstop": 2 }, "syntax": "js", "stealFocus": true }'></div>
+	</body>
+</html>

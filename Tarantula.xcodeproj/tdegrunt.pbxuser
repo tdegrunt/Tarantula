@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	256AC3D80F4B6AC300CF3369 /* TarantulaAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1005, 555}}";
+			sepNavSelRange = "{268, 0}";
+			sepNavVisRange = "{0, 321}";
+		};
+	};
+	256AC3D90F4B6AC300CF3369 /* TarantulaAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1062, 624}}";
+			sepNavSelRange = "{947, 0}";
+			sepNavVisRange = "{184, 1288}";
+			sepNavWindowFrame = "{{13, 320}, {750, 558}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 82562FA81246A7BC00215F09 /* Tarantula */;
+		activeTarget = 8D1107260486CEB800E47090 /* Tarantula */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* Tarantula */,
+		);
+		codeSenseManager = 82562FC81246A7CF00215F09 /* Code sense */;
+		executables = (
+			82562FA81246A7BC00215F09 /* Tarantula */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					641,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 307045214;
+			PBXWorkspaceStateSaveDate = 307045214;
+		};
+		perUserProjectItems = {
+			82223A7C124D237B00B1F4D9 /* PBXTextBookmark */ = 82223A7C124D237B00B1F4D9 /* PBXTextBookmark */;
+			82223A8A124D238700B1F4D9 /* PBXTextBookmark */ = 82223A8A124D238700B1F4D9 /* PBXTextBookmark */;
+			823A01F01246A94600489768 = 823A01F01246A94600489768 /* PBXTextBookmark */;
+			823A02221246ABCC00489768 = 823A02221246ABCC00489768 /* PlistBookmark */;
+			823A02231246ABCC00489768 = 823A02231246ABCC00489768 /* PBXTextBookmark */;
+			823A023B1246AD9500489768 = 823A023B1246AD9500489768 /* PBXTextBookmark */;
+			823A026C1246B08000489768 = 823A026C1246B08000489768 /* PBXTextBookmark */;
+			823A02A41246B2F300489768 = 823A02A41246B2F300489768 /* PBXTextBookmark */;
+			823A02A51246B2F300489768 = 823A02A51246B2F300489768 /* PBXTextBookmark */;
+			823A02C41246B4A100489768 = 823A02C41246B4A100489768 /* PBXTextBookmark */;
+			823A02E91246B64200489768 = 823A02E91246B64200489768 /* PBXTextBookmark */;
+			825630871246A8AD00215F09 = 825630871246A8AD00215F09 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 82562FC71246A7CF00215F09 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	82223A7C124D237B00B1F4D9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8256307D1246A88300215F09 /* TTJavaScriptBridge.m */;
+		name = "TTJavaScriptBridge.m: 24";
+		rLen = 0;
+		rLoc = 439;
+		rType = 0;
+		vrLen = 846;
+		vrLoc = 0;
+	};
+	82223A8A124D238700B1F4D9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8256307D1246A88300215F09 /* TTJavaScriptBridge.m */;
+		name = "TTJavaScriptBridge.m: 18";
+		rLen = 0;
+		rLoc = 353;
+		rType = 0;
+		vrLen = 897;
+		vrLoc = 0;
+	};
+	823A01F01246A94600489768 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 825630791246A84100215F09 /* BrowserController.h */;
+		name = "BrowserController.h: 12";
+		rLen = 0;
+		rLoc = 228;
+		rType = 0;
+		vrLen = 455;
+		vrLoc = 0;
+	};
+	823A02221246ABCC00489768 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Tarantula-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/tdegrunt/Dropbox/Development/Tarantula/Tarantula-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	823A02231246ABCC00489768 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8256307F1246A89800215F09 /* WebScriptObject+TTAdditions.h */;
+		name = "WebScriptObject+TTAdditions.h: 11";
+		rLen = 0;
+		rLoc = 207;
+		rType = 0;
+		vrLen = 330;
+		vrLoc = 0;
+	};
+	823A023B1246AD9500489768 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8256307A1246A84100215F09 /* BrowserController.m */;
+		name = "BrowserController.m: 31";
+		rLen = 16;
+		rLoc = 791;
+		rType = 0;
+		vrLen = 1119;
+		vrLoc = 0;
+	};
+	823A026C1246B08000489768 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* TarantulaAppDelegate.h */;
+		name = "TarantulaAppDelegate.h: 14";
+		rLen = 0;
+		rLoc = 268;
+		rType = 0;
+		vrLen = 321;
+		vrLoc = 0;
+	};
+	823A02A41246B2F300489768 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* TarantulaAppDelegate.m */;
+		name = "TarantulaAppDelegate.m: 19";
+		rLen = 0;
+		rLoc = 343;
+		rType = 0;
+		vrLen = 1480;
+		vrLoc = 0;
+	};
+	823A02A51246B2F300489768 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8256307C1246A88300215F09 /* TTJavaScriptBridge.h */;
+		name = "TTJavaScriptBridge.h: 21";
+		rLen = 0;
+		rLoc = 378;
+		rType = 0;
+		vrLen = 378;
+		vrLoc = 0;
+	};
+	823A02C41246B4A100489768 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8256307D1246A88300215F09 /* TTJavaScriptBridge.m */;
+		name = "TTJavaScriptBridge.m: 150";
+		rLen = 0;
+		rLoc = 3532;
+		rType = 0;
+		vrLen = 399;
+		vrLoc = 3135;
+	};
+	823A02E91246B64200489768 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8256307D1246A88300215F09 /* TTJavaScriptBridge.m */;
+		name = "TTJavaScriptBridge.m: 190";
+		rLen = 0;
+		rLoc = 3532;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 3534;
+	};
+	82562FA81246A7BC00215F09 /* Tarantula */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Tarantula;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	82562FC71246A7CF00215F09 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	82562FC81246A7CF00215F09 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	825630791246A84100215F09 /* BrowserController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {698, 530}}";
+			sepNavSelRange = "{228, 0}";
+			sepNavVisRange = "{0, 455}";
+		};
+	};
+	8256307A1246A84100215F09 /* BrowserController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1349, 871}}";
+			sepNavSelRange = "{790, 0}";
+			sepNavVisRange = "{413, 706}";
+			sepNavWindowFrame = "{{15, 315}, {750, 558}}";
+		};
+	};
+	8256307C1246A88300215F09 /* TTJavaScriptBridge.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {819, 615}}";
+			sepNavSelRange = "{378, 0}";
+			sepNavVisRange = "{0, 378}";
+		};
+	};
+	8256307D1246A88300215F09 /* TTJavaScriptBridge.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {819, 1976}}";
+			sepNavSelRange = "{353, 0}";
+			sepNavVisRange = "{0, 897}";
+		};
+	};
+	8256307F1246A89800215F09 /* WebScriptObject+TTAdditions.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {698, 530}}";
+			sepNavSelRange = "{207, 0}";
+			sepNavVisRange = "{0, 330}";
+		};
+	};
+	825630801246A89800215F09 /* WebScriptObject+TTAdditions.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {782, 530}}";
+			sepNavSelRange = "{555, 0}";
+			sepNavVisRange = "{0, 555}";
+		};
+	};
+	825630871246A8AD00215F09 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 825630801246A89800215F09 /* WebScriptObject+TTAdditions.m */;
+		name = "WebScriptObject+TTAdditions.m: 28";
+		rLen = 0;
+		rLoc = 555;
+		rType = 0;
+		vrLen = 555;
+		vrLoc = 0;
+	};
+	8D1107260486CEB800E47090 /* Tarantula */ = {
+		activeExec = 0;
+		executables = (
+			82562FA81246A7BC00215F09 /* Tarantula */,
+		);
+	};
+}
