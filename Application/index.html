@@ -25,26 +25,30 @@
 				//tarantula.beep();
 				//var result = tarantula.openPanel();
 				//console.log(JSON.stringify(result));
+				noActionBeep = function() {
+					tarantula.beep();
+				};
+				
 				var menu = [
 				  {
 				  	"title": "Tarantula",
 				  	"items": [
-				  		{ "title": "About Tarantula", "keyEquivalent": "", "action": function() {} },
-				  		{ "title": "Quit Tarantula", "keyEquivalent": "q", "action": function() {} }
+				  		{ "title": "About Tarantula", "keyEquivalent": "", "action": noActionBeep },
+				  		{ "title": "Quit Tarantula", "keyEquivalent": "q", "action": function() {tarantula.terminate();} }
 				  	] 
 				  },
 					{
 						"title": "File",
 						"items": [
-							{ "title": "New", "keyEquivalent": "n", "action": function() {} },
-							{ "title": "Open", "keyEquivalent": "o", "action": function() {} },
-							{ "title": "Close", "keyEquivalent": "w", "action": function() {} }
+							{ "title": "New", "keyEquivalent": "n", "action": noActionBeep },
+							{ "title": "Open", "keyEquivalent": "o", "action": noActionBeep },
+							{ "title": "Close", "keyEquivalent": "w", "action": noActionBeep }
 						] 
 					},
 					{
 						"title": "Help",
 						"items": [
-							{ "title": "Tarantula Help", "keyEquivalent": "?", "action": function() {} },
+							{ "title": "Tarantula Help", "keyEquivalent": "?", "action": noActionBeep },
 						] 
 					}
 				];

@@ -11,30 +11,35 @@ How?
 The Application folder of the project contains the actual Desktop-Web-Application, the index.html is automatically loaded.
 A window.tarantula (or tarantula) object is exposed and allows for the following:
 
-    tarantula.beep(); // Beeps - very exiting
+    tarantula.beep(); // Beeps - very exiting ;)
+    tarantula.terminate(); // Terminates the application
     var result = tarantula.openPanel(); // Presents user with open dialog
     console.log(JSON.stringify(result));
+
+    noActionBeep = function() {
+      tarantula.beep();
+    };
 
     var menu = [
       {
         "title": "Tarantula",
         "items": [
-          { "title": "About Tarantula", "keyEquivalent": "", "action": function() {} },
-          { "title": "Quit Tarantula", "keyEquivalent": "q", "action": function() {} }
+          { "title": "About Tarantula", "keyEquivalent": "", "action": noActionBeep },
+          { "title": "Quit Tarantula", "keyEquivalent": "q", "action": function() { tarantula.terminate(); } } // Inline function
         ] 
       },
       {
         "title": "File",
         "items": [
-          { "title": "New", "keyEquivalent": "n", "action": function() {} },
-          { "title": "Open", "keyEquivalent": "o", "action": function() {} },
-          { "title": "Close", "keyEquivalent": "w", "action": function() {} }
+          { "title": "New", "keyEquivalent": "n", "action": noActionBeep },
+          { "title": "Open", "keyEquivalent": "o", "action": noActionBeep },
+          { "title": "Close", "keyEquivalent": "w", "action": noActionBeep }
         ] 
       },
       {
         "title": "Help",
         "items": [
-          { "title": "Tarantula Help", "keyEquivalent": "?", "action": function() {} },
+          { "title": "Tarantula Help", "keyEquivalent": "?", "action": noActionBeep },
         ] 
       }
     ];

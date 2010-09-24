@@ -8,6 +8,7 @@
 
 #import "TTJavaScriptBridge.h"
 #import "WebScriptObject+TTAdditions.h"
+#import "TTJSMenuItem.h"
 
 @interface NSApplication (NiblessAdditions)
 -(void) setAppleMenu:(NSMenu *)aMenu;
@@ -52,6 +53,8 @@
         return @"openPanel";
     } else if (@selector(setApplicationMenu:) == sel) {
         return @"setApplicationMenu";
+    } else if (@selector(terminateFromJS) == sel) {
+        return @"terminate";
     } else {
         return nil;
     }
@@ -69,6 +72,10 @@
 
 #pragma mark -
 #pragma mark JavaScript Actions
+
+- (void)terminateFromJS {
+    [NSApp terminate:self];
+}
 
 - (void)beep {
     NSBeep();
@@ -115,9 +122,12 @@
 		 for( int j = 0; j < [[wsoMenuItems valueForKey:@"length"] unsignedIntegerValue]; j++ ) {
 			 WebScriptObject *wsoMenuItem = [wsoMenuItems webScriptValueAtIndex:j];
 			 
-			 [menu addItemWithTitle:[wsoMenuItem propertyValueForKey:@"title"] 
-							 action:@selector(terminate:) 
-					  keyEquivalent:[wsoMenuItem propertyValueForKey:@"keyEquivalent"]]; 			
+			 menuItem = [[TTJSMenuItem alloc] initWithTitle:[wsoMenuItem propertyValueForKey:@"title"] 
+												   function:[wsoMenuItem propertyValueForKey:@"action"] 
+											keyEquivalent:[wsoMenuItem propertyValueForKey:@"keyEquivalent"]];
+						 			 
+			 [menu addItem:menuItem];
+			 [menuItem release];
 		 }
 	 
 		 if (i==0) {
