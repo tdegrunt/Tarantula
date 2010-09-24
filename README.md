@@ -55,4 +55,3 @@ Building
 --------
 
 Build using 10.6.4 and XCode 3.2.4.
-Once the Debug/Release application is created copy the Application folder into the Tarantula.app/Contents/Resources folder.
