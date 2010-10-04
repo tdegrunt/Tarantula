@@ -72,15 +72,6 @@
 		82B0DC99124D429400A00521 /* scroll-up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scroll-up.png"; sourceTree = "<group>"; };
 		82B0DC9A124D429400A00521 /* theme.less */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = theme.less; sourceTree = "<group>"; };
 		82B0DC9C124D429400A00521 /* theme.less */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = theme.less; sourceTree = "<group>"; };
-		82B0DC9E124D429400A00521 /* fields.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = fields.html; sourceTree = "<group>"; };
-		82B0DC9F124D429400A00521 /* html.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = html.html; sourceTree = "<group>"; };
-		82B0DCA0124D429400A00521 /* jquery.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jquery.html; sourceTree = "<group>"; };
-		82B0DCA1124D429400A00521 /* multi.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = multi.html; sourceTree = "<group>"; };
-		82B0DCA2124D429400A00521 /* programmatic.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = programmatic.html; sourceTree = "<group>"; };
-		82B0DCA3124D429400A00521 /* sample.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = sample.html; sourceTree = "<group>"; };
-		82B0DCA4124D429400A00521 /* tags.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = tags.html; sourceTree = "<group>"; };
-		82B0DCA5124D429400A00521 /* textarea.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = textarea.html; sourceTree = "<group>"; };
-		82B0DCA6124D429400A00521 /* wide.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = wide.html; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Tarantula-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Tarantula-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Tarantula.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tarantula.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -194,7 +185,6 @@
 				82B0DC73124D429400A00521 /* index.html */,
 				82B0DC74124D429400A00521 /* plugins */,
 				82B0DC7C124D429400A00521 /* resources */,
-				82B0DC9D124D429400A00521 /* samples */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -341,22 +331,6 @@
 				82B0DC9C124D429400A00521 /* theme.less */,
 			);
 			path = whitetheme;
-			sourceTree = "<group>";
-		};
-		82B0DC9D124D429400A00521 /* samples */ = {
-			isa = PBXGroup;
-			children = (
-				82B0DC9E124D429400A00521 /* fields.html */,
-				82B0DC9F124D429400A00521 /* html.html */,
-				82B0DCA0124D429400A00521 /* jquery.html */,
-				82B0DCA1124D429400A00521 /* multi.html */,
-				82B0DCA2124D429400A00521 /* programmatic.html */,
-				82B0DCA3124D429400A00521 /* sample.html */,
-				82B0DCA4124D429400A00521 /* tags.html */,
-				82B0DCA5124D429400A00521 /* textarea.html */,
-				82B0DCA6124D429400A00521 /* wide.html */,
-			);
-			path = samples;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -51,6 +51,8 @@
         return @"beep";
     } else if (@selector(openPanel) == sel) {
         return @"openPanel";
+	} else if (@selector(readFile:) == sel) {
+		return @"readFile";
     } else if (@selector(setApplicationMenu:) == sel) {
         return @"setApplicationMenu";
     } else if (@selector(terminateFromJS) == sel) {
@@ -102,6 +104,18 @@
     return [scriptObject evaluateWebScript:resultObject];
 }
 
+- (id)readFile: (NSString *)urlString {
+	
+	NSURL *url = [NSURL URLWithString:urlString];
+	
+	
+	NSFileHandle *fileHandle = [NSFileHandle fileHandleForReadingFromURL:url error:nil];
+	NSString *fileData = [[[NSString alloc] initWithData:[fileHandle readDataToEndOfFile] encoding:NSUTF8StringEncoding] stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+	NSMutableString *resultObject = [NSMutableString stringWithFormat:@"\"%@\"", fileData];
+	
+	return [scriptObject evaluateWebScript:resultObject];
+}
+
 - (void)setApplicationMenu: (WebScriptObject *)wso {
 	 NSMenu      *menu;
 	 NSMenuItem  *menuItem;	
@@ -118,7 +132,6 @@
 		 }
 	 
 		 WebScriptObject *wsoMenuItems = (WebScriptObject *)[wsoMenu propertyValueForKey:@"items"];
-		 NSLog(@"items: %@", [wsoMenu propertyValueForKey:@"items"]);
 		 for( int j = 0; j < [[wsoMenuItems valueForKey:@"length"] unsignedIntegerValue]; j++ ) {
 			 WebScriptObject *wsoMenuItem = [wsoMenuItems webScriptValueAtIndex:j];
 			 

@@ -17,7 +17,7 @@
 		        var console = bespin.tiki.require('bespin:console').console;
 		        var Range = bespin.tiki.require('rangeutils:utils/range');
 
-		        console.log("this is called when Bespin is loaded");
+		        // console.log("this is called when Bespin is loaded");
 
 		        // Get the Bespin editor.
 		        editor = document.getElementById("editor").bespin.editor;
@@ -29,7 +29,10 @@
 				
 				openFile = function() {
 					var result = tarantula.openPanel();
-					console.log(JSON.stringify(result));
+					if( result.button == 1 && result.URLs && result.URLs.length > 0 ) {
+						var fileName = result.URLs[0];
+						editor.value = unescape(tarantula.readFile(fileName));
+					}
 				};
 				
 				var menu = [
